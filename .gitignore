@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+
+# Virtual environment
+venv/
+
+# Django static & media (optional, if generated)
+staticfiles/
+media/
+
+# IDE settings (optional)
+.vscode/
+.idea/

@@ -11,6 +11,6 @@ class CustomUser(AbstractUser):
     balance = models.DecimalField(max_digits=12, decimal_places=2, default=Decimal('0.00'))
     is_kyc_verified = models.BooleanField(default=False)
     wallet_address = models.CharField(max_length=255, blank=True, null=True)
-
+        #change string to name
     def __str__(self):
         return self.username or self.email
